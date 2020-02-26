@@ -23,4 +23,28 @@ public class AgentProductDto implements Serializable {
      * 产品数量
      */
     private Integer authorizedQuantity;
+
+    public Integer getAgentId() {
+        return agentId;
+    }
+
+    public void setAgentId(Integer agentId) {
+        this.agentId = agentId;
+    }
+
+    public Integer getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Integer productId) {
+        this.productId = productId;
+    }
+
+    public Integer getAuthorizedQuantity() {
+        return authorizedQuantity;
+    }
+
+    public void setAuthorizedQuantity(Integer authorizedQuantity) {
+        this.authorizedQuantity = authorizedQuantity;
+    }
 }
